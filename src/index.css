@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-background:#05000d;
+    --color-primary:#babbe3;
+}
+/* .hello{
+    font-size: 30px;
+} */
